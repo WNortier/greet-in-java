@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c21f72e6-f75b-49a3-8ca5-876b60e0a318" name="Default Changelist" comment="" />
+    <list default="true" id="c21f72e6-f75b-49a3-8ca5-876b60e0a318" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/greet/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/greet/Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greet/Greet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/greet/Greet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/greet/Greet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bl5NbkUUKUoQxVNKW03cDV9qHK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,9 +48,22 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Tests">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Greet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greet.Greet" />
+      <module name="greet-in-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greet.Main" />
       <module name="greet-in-java" />
       <extension name="coverage">
         <pattern>
@@ -81,10 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Greet" />
         <item itemvalue="JUnit.Tests" />
         <item itemvalue="JUnit.Tests.shouldReturnGreeting" />
         <item itemvalue="JUnit.greettest.shouldReturnGreeting" />
-        <item itemvalue="Application.Greet" />
       </list>
     </recent_temporary>
   </component>
@@ -122,25 +148,25 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="747" y="143" width="476" height="835" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589203118941" />
-    <state width="1554" height="275" key="GridCell.Tab.0.bottom" timestamp="1589208152049">
+    <state width="1554" height="275" key="GridCell.Tab.0.bottom" timestamp="1589211856975">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state width="1554" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589208152049" />
+    <state width="1554" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589211856975" />
     <state width="1804" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589206941725" />
-    <state width="1554" height="275" key="GridCell.Tab.0.center" timestamp="1589208152049">
+    <state width="1554" height="275" key="GridCell.Tab.0.center" timestamp="1589211856975">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state width="1554" height="275" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589208152049" />
+    <state width="1554" height="275" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589211856975" />
     <state width="1804" height="275" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589206941725" />
-    <state width="1554" height="275" key="GridCell.Tab.0.left" timestamp="1589208152049">
+    <state width="1554" height="275" key="GridCell.Tab.0.left" timestamp="1589211856975">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state width="1554" height="275" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589208152049" />
+    <state width="1554" height="275" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589211856975" />
     <state width="1804" height="275" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589206941725" />
-    <state width="1554" height="275" key="GridCell.Tab.0.right" timestamp="1589208152049">
+    <state width="1554" height="275" key="GridCell.Tab.0.right" timestamp="1589211856975">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state width="1554" height="275" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589208152049" />
+    <state width="1554" height="275" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589211856975" />
     <state width="1804" height="275" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589206941725" />
     <state x="2376" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1589199317121">
       <screen x="1920" y="0" width="1600" height="900" />

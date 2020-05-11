@@ -1,6 +1,7 @@
 import greet.Greet;
-import org.junit.Test;
-import static junit.framework.TestCase.assertEquals;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
 
 public class Tests {
 

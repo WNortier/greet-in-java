@@ -9,10 +9,4 @@ public class Greet {
     public int greetCount(){
         return 3;
     }
-
-    public static void main(String[] args) {
-        Greet greeting = new Greet();
-        greeting.greet();
-    }
-
 }
