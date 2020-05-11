@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c21f72e6-f75b-49a3-8ca5-876b60e0a318" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bl5NbkUUKUoQxVNKW03cDV9qHK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Tests">
+    <configuration name="Greet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greet.Greet" />
+      <module name="greet-in-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="greet-in-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.shouldReturnGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="greet-in-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="shouldReturnGreeting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="greettest.shouldReturnGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="greet-in-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="greettest" />
+      <option name="METHOD_NAME" value="shouldReturnGreeting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Tests" />
+        <item itemvalue="JUnit.Tests.shouldReturnGreeting" />
+        <item itemvalue="JUnit.greettest.shouldReturnGreeting" />
+        <item itemvalue="Application.Greet" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c21f72e6-f75b-49a3-8ca5-876b60e0a318" name="Default Changelist" comment="" />
+      <created>1589193801127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589193801127</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="590" y="215" width="848" height="684" key="#Project_Structure" timestamp="1589205269120">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="590" y="215" width="848" height="684" key="#Project_Structure/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589205269120" />
+    <state x="607" y="481" width="775" height="152" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589204433585">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="607" y="481" width="775" height="152" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589204433585" />
+    <state x="748" y="414" width="494" height="297" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589201369465">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="748" y="414" width="494" height="297" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589201369465" />
+    <state x="748" y="435" width="494" height="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1589204444316">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="748" y="435" width="494" height="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589204444316" />
+    <state x="747" y="143" width="476" height="835" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589203118941">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="747" y="143" width="476" height="835" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589203118941" />
+    <state width="1554" height="275" key="GridCell.Tab.0.bottom" timestamp="1589208152049">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589208152049" />
+    <state width="1804" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589206941725" />
+    <state width="1554" height="275" key="GridCell.Tab.0.center" timestamp="1589208152049">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="275" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589208152049" />
+    <state width="1804" height="275" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589206941725" />
+    <state width="1554" height="275" key="GridCell.Tab.0.left" timestamp="1589208152049">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="275" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589208152049" />
+    <state width="1804" height="275" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589206941725" />
+    <state width="1554" height="275" key="GridCell.Tab.0.right" timestamp="1589208152049">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="275" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589208152049" />
+    <state width="1804" height="275" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589206941725" />
+    <state x="2376" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1589199317121">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state x="2376" y="333" key="com.intellij.ide.util.TipDialog/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589199317121" />
+  </component>
+</project>
