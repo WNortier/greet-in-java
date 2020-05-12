@@ -14,9 +14,9 @@ public class Greeted {
         return this.greetedPersons.size();
     }
 
-    public static void countFrequencies(ArrayList<String> greetedPersons) {
-        Set<String> st = new HashSet<String>(greetedPersons);
-        for (String s : st)
-            System.out.println(s + ": " + Collections.frequency(greetedPersons, s));
-    }
+//    public static void countFrequencies(ArrayList<String> greetedPersons) {
+//        Set<String> st = new HashSet<String>(greetedPersons);
+//        for (String s : st)
+//            System.out.println(s + ": " + Collections.frequency(greetedPersons, s));
+//    }
 }

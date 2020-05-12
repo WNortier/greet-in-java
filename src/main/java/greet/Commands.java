@@ -30,9 +30,9 @@ public class Commands {
                     this.endProgram();
                     break;
                 }
-                case "greeted" : {
-
-                }
+//                case "greeted" : {
+//
+//                }
             }
         }
     }

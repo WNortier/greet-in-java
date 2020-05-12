@@ -21,10 +21,7 @@ public class GreeterTests {
 
     }
 
-    @Test
-    public void should(){
 
-    }
 
 //    @Test
 //    public void scannerTest() {
