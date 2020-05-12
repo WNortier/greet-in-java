@@ -2,7 +2,10 @@ package greet;
 
 public class Main {
     public static void main(String[] args) {
-        Greet greeting = new Greet();
-        System.out.println(greeting.greet());
+        Greeter greeter = new Greeter();
+        Greeted greeted = new Greeted();
+
+        Commands commands = new Commands(greeter, greeted);
+        commands.runProgram();
     }
 }

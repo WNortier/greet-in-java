@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21f72e6-f75b-49a3-8ca5-876b60e0a318" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/greet/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/greet/Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/greet/Greeted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/greet/Languages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GreetedTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GreeterTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/greet/Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greet/Greet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/greet/Greet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/greet/Greet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/greet/Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greet/Greeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/greet/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greet/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/greet/Greet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/greet/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/greet/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greet-in-java-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/greet-in-java-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Tests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Tests.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -75,19 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GreeterTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="greet-in-java" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="GreeterTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.shouldReturnGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GreeterTests.shouldReturnGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="greet-in-java" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="GreeterTests" />
       <option name="METHOD_NAME" value="shouldReturnGreeting" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -107,9 +118,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.GreeterTests.shouldReturnGreeting" />
+        <item itemvalue="JUnit.GreeterTests" />
         <item itemvalue="Application.Greet" />
-        <item itemvalue="JUnit.Tests" />
-        <item itemvalue="JUnit.Tests.shouldReturnGreeting" />
         <item itemvalue="JUnit.greettest.shouldReturnGreeting" />
       </list>
     </recent_temporary>
@@ -144,33 +155,34 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="748" y="435" width="494" height="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589204444316" />
-    <state x="747" y="143" width="476" height="835" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589203118941">
+    <state x="747" y="143" width="476" height="835" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589280508460">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="747" y="143" width="476" height="835" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589203118941" />
-    <state width="1554" height="275" key="GridCell.Tab.0.bottom" timestamp="1589211856975">
-      <screen x="1920" y="0" width="1600" height="900" />
+    <state x="747" y="143" width="476" height="835" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589280508460" />
+    <state width="1804" height="258" key="GridCell.Tab.0.bottom" timestamp="1589290213753">
+      <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1554" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589211856975" />
-    <state width="1804" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589206941725" />
-    <state width="1554" height="275" key="GridCell.Tab.0.center" timestamp="1589211856975">
-      <screen x="1920" y="0" width="1600" height="900" />
+    <state width="1554" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589213477140" />
+    <state width="1804" height="258" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589290213753" />
+    <state width="1804" height="258" key="GridCell.Tab.0.center" timestamp="1589290213753">
+      <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1554" height="275" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589211856975" />
-    <state width="1804" height="275" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589206941725" />
-    <state width="1554" height="275" key="GridCell.Tab.0.left" timestamp="1589211856975">
-      <screen x="1920" y="0" width="1600" height="900" />
+    <state width="1554" height="275" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589213477140" />
+    <state width="1804" height="258" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589290213753" />
+    <state width="1804" height="258" key="GridCell.Tab.0.left" timestamp="1589290213753">
+      <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1554" height="275" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589211856975" />
-    <state width="1804" height="275" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589206941725" />
-    <state width="1554" height="275" key="GridCell.Tab.0.right" timestamp="1589211856975">
-      <screen x="1920" y="0" width="1600" height="900" />
+    <state width="1554" height="275" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589213477140" />
+    <state width="1804" height="258" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589290213753" />
+    <state width="1804" height="258" key="GridCell.Tab.0.right" timestamp="1589290213753">
+      <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1554" height="275" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589211856975" />
-    <state width="1804" height="275" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589206941725" />
-    <state x="2376" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1589199317121">
-      <screen x="1920" y="0" width="1600" height="900" />
+    <state width="1554" height="275" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589213477140" />
+    <state width="1804" height="258" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589290213753" />
+    <state x="597" y="417" key="com.intellij.ide.util.TipDialog" timestamp="1589277284804">
+      <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="2376" y="333" key="com.intellij.ide.util.TipDialog/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589199317121" />
+    <state x="597" y="417" key="com.intellij.ide.util.TipDialog/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589277284804" />
   </component>
 </project>
