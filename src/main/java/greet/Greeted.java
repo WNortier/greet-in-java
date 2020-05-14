@@ -4,19 +4,20 @@ import java.util.*;
 
 public class Greeted {
 
-    private List<String> greetedPersons = new ArrayList<String>();
+    private List<String> list = new ArrayList<>();
 
     public void addPerson(String name) {
-        greetedPersons.add(name);
+        list.add(name);
     }
 
     public int getGreetedCount() {
-        return this.greetedPersons.size();
+        return this.list.size();
     }
 
-//    public static void countFrequencies(ArrayList<String> greetedPersons) {
-//        Set<String> st = new HashSet<String>(greetedPersons);
-//        for (String s : st)
-//            System.out.println(s + ": " + Collections.frequency(greetedPersons, s));
-//    }
+    public void countFrequencies(ArrayList<String> greetedPersons) {
+        Set<String> st = new HashSet<String>(greetedPersons);
+        for (String s : st)
+            System.out.println(s + ": " + Collections.frequency(greetedPersons, s));
+    }
 }
+

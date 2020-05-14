@@ -3,14 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="c21f72e6-f75b-49a3-8ca5-876b60e0a318" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/greet/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greet/Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/greet/Greeted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greet/Greeted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/greet/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greet/Greeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/greet/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greet/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GreetedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GreetedTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GreeterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GreeterTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/greet/Commands.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/greet/Commands.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/greet/Greeted.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/greet/Greeted.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/greet/Greeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/greet/Greeter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/greet/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/greet/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GreetedTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GreetedTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GreeterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GreeterTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +53,7 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GreetedTests.should">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greet.Main" />
-      <module name="greet-in-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="greet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GreetedTests.shouldAddGreetedPerson">
     <configuration name="GreetedTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="greet-in-java" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,11 +63,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreetedTests.should" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GreetedTests.shouldAddGreetedPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="greet-in-java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GreetedTests" />
-      <option name="METHOD_NAME" value="should" />
+      <option name="METHOD_NAME" value="shouldAddGreetedPerson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreetedTests.shouldAddPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="greet-in-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GreetedTests" />
+      <option name="METHOD_NAME" value="shouldAddPerson" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +92,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreeterTests.shouldReturnGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GreeterTests.shouldReturnGreetingViaCommands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="greet-in-java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GreeterTests" />
-      <option name="METHOD_NAME" value="shouldReturnGreeting" />
+      <option name="METHOD_NAME" value="shouldReturnGreetingViaCommands" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GreetedTests.should" />
-        <item itemvalue="JUnit.GreetedTests" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.GreeterTests.shouldReturnGreeting" />
+        <item itemvalue="JUnit.GreetedTests.shouldAddGreetedPerson" />
         <item itemvalue="JUnit.GreeterTests" />
+        <item itemvalue="JUnit.GreeterTests.shouldReturnGreetingViaCommands" />
+        <item itemvalue="JUnit.GreetedTests" />
+        <item itemvalue="JUnit.GreetedTests.shouldAddPerson" />
       </list>
     </recent_temporary>
   </component>
@@ -147,30 +146,65 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="747" y="143" width="476" height="835" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589280508460" />
-    <state width="1804" height="258" key="GridCell.Tab.0.bottom" timestamp="1589305532687">
+    <state x="778" y="270" width="424" height="574" key="FileChooserDialogImpl" timestamp="1589376779838">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="778" y="270" width="424" height="574" key="FileChooserDialogImpl/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589376779838" />
+    <state width="1804" height="331" key="GridCell.Tab.0.bottom" timestamp="1589453337563">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1554" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589213477140" />
-    <state width="1804" height="258" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589305532687" />
-    <state width="1804" height="258" key="GridCell.Tab.0.center" timestamp="1589305532687">
+    <state width="1804" height="331" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589453337563" />
+    <state width="1804" height="331" key="GridCell.Tab.0.center" timestamp="1589453337563">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1554" height="275" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589213477140" />
-    <state width="1804" height="258" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589305532687" />
-    <state width="1804" height="258" key="GridCell.Tab.0.left" timestamp="1589305532687">
+    <state width="1804" height="331" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589453337563" />
+    <state width="1804" height="331" key="GridCell.Tab.0.left" timestamp="1589453337563">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1554" height="275" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589213477140" />
-    <state width="1804" height="258" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589305532687" />
-    <state width="1804" height="258" key="GridCell.Tab.0.right" timestamp="1589305532687">
+    <state width="1804" height="331" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589453337563" />
+    <state width="1804" height="331" key="GridCell.Tab.0.right" timestamp="1589453337563">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1554" height="275" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589213477140" />
-    <state width="1804" height="258" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589305532687" />
+    <state width="1804" height="331" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589453337563" />
+    <state width="1804" height="340" key="GridCell.Tab.1.bottom" timestamp="1589307311704">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="340" key="GridCell.Tab.1.bottom/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589307311704" />
+    <state width="1804" height="340" key="GridCell.Tab.1.center" timestamp="1589307311703">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="340" key="GridCell.Tab.1.center/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589307311703" />
+    <state width="1804" height="340" key="GridCell.Tab.1.left" timestamp="1589307311703">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="340" key="GridCell.Tab.1.left/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589307311703" />
+    <state width="1804" height="340" key="GridCell.Tab.1.right" timestamp="1589307311703">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="340" key="GridCell.Tab.1.right/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589307311703" />
+    <state x="580" y="208" width="1122" height="698" key="NewModule_or_Project.wizard" timestamp="1589376790439">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="580" y="208" width="1122" height="698" key="NewModule_or_Project.wizard/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589376790439" />
     <state x="597" y="417" key="com.intellij.ide.util.TipDialog" timestamp="1589277284804">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="2376" y="333" key="com.intellij.ide.util.TipDialog/70.27.1850.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1589199317121" />
     <state x="597" y="417" key="com.intellij.ide.util.TipDialog/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589277284804" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/GreeterTests.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -8,14 +8,11 @@ import org.junit.jupiter.api.Test;
 public class GreetedTests {
 
     @Test
-    public void should(){
-        Greeted greeted = new Greeted();
+    public void shouldAddGreetedPerson() {
         Greeter greeter = new Greeter();
-        greeter.greet("Warwick", Languages.AFRIKAANS);
+        Greeted greeted = new Greeted();
         greeter.greet("Warwick", Languages.ENGLISH);
         greeter.greet("Mike", Languages.ENGLISH);
-        assertEquals(3, greeted.getGreetedCount());
-        System.out.println(greeted.getGreetedCount());
-
+        assertEquals(2, greeted.getGreetedCount());
     }
 }

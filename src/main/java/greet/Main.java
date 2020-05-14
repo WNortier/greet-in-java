@@ -5,7 +5,8 @@ public class Main {
         Greeter greeter = new Greeter();
         Greeted greeted = new Greeted();
 
-        Commands commands = new Commands(greeter, greeted);
-        commands.runProgram();
+//        Commands commands = new Commands(greeter, greeted);
+//        commands.runProgram();
+
     }
 }
